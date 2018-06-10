@@ -1,0 +1,18 @@
+{
+    "require": {
+        "twig/twig": "^1.35"
+    },
+    "autoload": {
+        "classmap": [
+            "app/controllers",
+            "app/models",
+            "app/classes",
+            "app/BO"
+        ],
+        "files": [
+            "app/lib/helpers.php",
+            "config/db/dbconfig.php"
+        ]
+    }
+
+}
